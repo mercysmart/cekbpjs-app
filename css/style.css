@@ -1,0 +1,11 @@
+body {
+	font-family: 'Lato', sans-serif;
+	text-align: center;
+}
+#buttons {
+	width: 500px;
+}
+input {
+	/*padding: 20px;*/
+	margin: auto;
+}

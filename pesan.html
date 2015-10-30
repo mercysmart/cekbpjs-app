@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CekBPJS</title>
+	<!-- Bootsrap CSS -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<!-- Costum CSS -->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<!-- Costum Fonts -->
+	<link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+	<!-- Bootstrap JS -->
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/npm.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+</head>
+<body>
+	<section id="header">
+		<div class="page-header">
+			<img src="img/logo.png">
+		</div>
+	</section>
+	<section id="content-form">
+		<ul style="list-style: none;">
+				<li class="span1_of_1">
+					<h5>Nomor BPJS:</h5>
+					<input type="text">
+					<div class="section_room">
+					</div>	
+				</li>
+				<li class="span1_of_1">
+					<h5>NIK:</h5>
+					<input type="text">
+					<div class="section_room">
+					</div>	
+				</li>
+				<li class="span1_of_1">
+					<h5>Jenis Kelamin:</h5>
+					<!-- <input type="text"> -->
+					<select name="gender">
+						<option value="laki-laki">Laki-laki</option>
+						<option value="perempuan">Perempuan</option>
+					</select>
+					<div class="section_room">
+					</div>	
+				</li>
+				<li class="span1_of_1">
+					<h5>Faskes Primer:</h5>
+					<input type="text">
+					<div class="section_room">
+					</div>	
+					</li>
+				<li class="span1_of_1">
+					<h5>Dokter Pengirim:</h5>
+					<input type="text">
+					<div class="section_room">
+					</div>	
+				</li>
+				<li class="span1_of_1">
+					<h5>Penyakit:</h5>
+					<input type="text">
+					<div class="section_room">
+					</div>	
+				</li>
+				<li class="span1_of_1 center">
+					<h5>Tanggal Lahir:</h5>
+					<div class="book_date">
+						<form>
+							<input type="date">
+						</form>
+						<br>
+					</div>					
+				</li>
+				<!-- <li  class="span1_of_1 left">
+					<h5>check-out-date:</h5>
+					<div class="book_date">
+						<form>
+							<input class="date" id="datepicker1" type="text" value="DD/MM/YY" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'DD/MM/YY';}">
+						</form>
+					</div>		
+				</li> -->
+					<div class="section_room">
+						<!-- <select id="country" onchange="change_country(this.value)" class="frm-field required">
+							<option value="null">1</option>
+				            <option value="null">2</option>         
+				            <option value="AX">3</option>
+							<option value="AX">4</option>
+		        		</select> -->
+					</div>					
+				
+				<li class="span1_of_3">
+					<div class="date_btn">
+						<form action="pilih.html">
+							<input type="submit" value="Pesan" onclick="pilih.html" style="width: 75px;" class="btn btn-success">
+						</form>
+					</div>
+				</li>
+				<div class="clear"></div>
+			</ul>
+	</section>
+	<section id="footer">
+		<hr>
+		&copy; CekBPJS 2015
+	</section>
+</body>
+</html>
