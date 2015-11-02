@@ -9,3 +9,7 @@ input {
 img {
 	width: 200px;
 }
+a {
+	display: block;
+	margin: 1px 0;
+}
