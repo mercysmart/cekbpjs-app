@@ -31,3 +31,7 @@ a {
 	background-color: #009688;
 	color: #fff;
 }
+.green:hover {
+	background-color: #00897B;
+	color: #fff;
+}
