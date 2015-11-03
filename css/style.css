@@ -22,3 +22,16 @@ a {
 	margin-bottom: 40px;
 	z-index: 900;
 }
+#vertical {
+	position: relative;
+	display: inline-block;
+	vertical-align: middle;
+}
+.green {
+	background-color: #009688;
+	color: #fff;
+}
+.green:hover {
+	background-color: #00897B;
+	color: #fff;
+}
