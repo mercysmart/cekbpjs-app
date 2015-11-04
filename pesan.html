@@ -8,6 +8,9 @@
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<!-- Costum CSS -->
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<!-- Material -->
+	<link rel="stylesheet" href="https://storage.googleapis.com/code.getmdl.io/1.0.6/material.indigo-pink.min.css">
+	<script src="https://storage.googleapis.com/code.getmdl.io/1.0.6/material.min.js"></script>
 </head>
 <body>
 	<section id="header">
@@ -16,7 +19,7 @@
 		</div>
 	</section>
 	<section id="content-form">
-		<form name="form">
+		<form name="form" action="kamar.html">
 			<ul style="list-style: none;">
 					<li class="span1_of_1">
 						<p>Nomor BPJS:</p>
@@ -117,11 +120,19 @@
 					            <option value="AX">3</option>
 								<option value="AX">4</option>
 			        		</select> -->
+			        		<!-- Textfield with Floating Label -->
+
+							<!-- <form action="#">
+							  <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+							    <input class="mdl-textfield__input" type="text" id="sample3">
+							    <label class="mdl-textfield__label" for="sample3">Text...</label>
+							  </div>
+							</form> -->
+
 						</div>					
 					
 					<li class="span1_of_3">
 						<div class="date_btn">
-							<form action="pilih.html">
 								<br>
 								<p>*Please put the correct data of you.</p>
 								<input type="submit" value="Pesan" style="width: 75px;" class="btn green" onclick="warn()">
