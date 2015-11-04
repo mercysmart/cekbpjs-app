@@ -35,3 +35,6 @@ a {
 	background-color: #00897B;
 	color: #fff;
 }
+.btn-group-vertical {
+	vertical-align: middle;
+}
