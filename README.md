@@ -6,7 +6,7 @@ Merupakan sebuah layanan BPJS yang akan membantu anda dalam membooking kamar rum
 * Mercy Sihombing - Founder 
 * Christie Kirana - Co-Founder
 * Andre Christoga - Frontend Developer
-* Andre Christoga - Backend Developer
+* Dwi Susanto - Backend Developer
 
 ## Demo
 [http://mercysmart.github.io/cekbpjs-app](http://mercysmart.github.io/cekbpjs-app)
