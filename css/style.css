@@ -25,7 +25,7 @@ a {
 	display: inline-block;
 	vertical-align: middle;
 }
-/*.rating > span:hover:before {
+/*.rating > i:hover:before {
    content: "\2605";
    position: absolute;
 }
@@ -33,12 +33,12 @@ a {
   unicode-bidi: bidi-override;
   direction: rtl;
 }
-.rating > span:hover:before,
-.rating > span:hover ~ span:before {
+.rating > i:hover:before,
+.rating > i:hover ~ i:before {
    content: "\2605";
    position: absolute;
 }
-.rating > span {
+.rating > i {
   display: inline-block;
   position: relative;
   width: 1.1em;
@@ -52,17 +52,17 @@ a {
   direction: rtl;
   text-align: center;
 }
-.rating > span {
+.rating > i {
   display: inline-block;
   position: relative;
   width: 1.1em;
 }
-.rating > span:hover,
-.rating > span:hover ~ span {
+.rating > i:hover,
+.rating > i:hover ~ i {
   color: transparent;
 }
-.rating > span:hover:before,
-.rating > span:hover ~ span:before {
+.rating > i:hover:before,
+.rating > i:hover ~ i:before {
    content: "\2605";
    position: absolute;
    left: 0; 
