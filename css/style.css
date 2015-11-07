@@ -66,13 +66,13 @@ a {
    content: "\2605";
    position: absolute;
    left: 0; 
-   color: gold;
+   color: #FFC107;
 }
 
 
 
 
-body { padding: 100px; }
+/*body { padding: 100px; }*/
 .green {
 	background-color: #009688;
 	color: #fff;
