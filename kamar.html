@@ -22,44 +22,63 @@
 	<section id="content">
 		<?php
 		 
-		   $data = "testtesttest";
-		   $secretKey = "secretkey";
-		         // Computes the timestamp
-		          date_default_timezone_set('UTC');
-		          $tStamp = strval(time()-strtotime('1970-01-01 00:00:00'));
-		           // Computes the signature by hashing the salt with the secret key as the key
-		   $signature = hash_hmac('sha256', $data."&".$tStamp, $secretKey, true);
+		   // $data = "testtesttest";
+		   // $secretKey = "secretkey";
+		   //       // Computes the timestamp
+		   //        date_default_timezone_set('UTC');
+		   //        $tStamp = strval(time()-strtotime('1970-01-01 00:00:00'));
+		   //         // Computes the signature by hashing the salt with the secret key as the key
+		   // $signature = hash_hmac('sha256', $data."&".$tStamp, $secretKey, true);
 		 
-		   // base64 encode…
-		   $encodedSignature = base64_encode($signature);
+		   // // base64 encode…
+		   // $encodedSignature = base64_encode($signature);
 		 
-		   // urlencode…
-		   // $encodedSignature = urlencode($encodedSignature);
+		   // // urlencode…
+		   // // $encodedSignature = urlencode($encodedSignature);
 		 
-		   echo "X-cons-id: " .$data ."<br>";
-		   echo "X-timestamp:" .$tStamp ."<br>";
-		   echo "X-signature: " .$encodedSignature;
-		 
+		   // echo "X-cons-id: " .$data ."<br>";
+		   // echo "X-timestamp:" .$tStamp ."<br>";
+		   // echo "X-signature: " .$encodedSignature;
+		 	
+			// if (muhammadiyah) {
+			// 	$name = "Muhammadiyah";
+			// 	$img = "img/muhammadiyah.JPG";
+			// 	$tel = "+625363244801";
+			// }
+
+			// if (bhayangkara) {
+			// 	$name = "Bhayangkara";
+			// 	$img = "img/bhayangkara.jpg";
+			// 	$tel = "+625363221520";
+			// }
+
+			// if (doris) {
+			// 	$name = "Doris";
+			// 	$img = "img/rs/doris.jpg";
+			// 	$tel = "+625363308671";
+			// }
 		?>
 		<br><br>
+		<style type="text/css">
+		</style>
 		<div class="panel-group">
 	    <div class="panel one panel-primary">
 	      <div class="panel-heading">Rumah Sakit Islam PKU Muhammadiyah Palangkaraya</div>
 	      <div class="panel-body"><img src="img/rs/muhammadiyah.JPG" alt="Rumah Sakit Islam PKU Muhammadiyah Palangkaraya"></div>
-	      <div class="panel-body">Telp: <a href="tel:+625363244801" title="Rumah Sakit Islam PKU Muhammadiyah Palangkaraya">+625363244801</a></div>
+	      <div class="panel-body"><a href="muhammadiyah.html" title="Rumah Sakit Islam PKU Muhammadiyah Palangkaraya" style="color: #009688;"><i class="material-icons">local_hospital</i></a></div>
 	    </div>
 	    <br>
 	    <div class="panel two panel-success">
 	      <div class="panel-heading">Rumah Sakit Bhayangkara Palangkaraya</div>
 	      <div class="panel-body"><img src="img/rs/bhayangkara.jpg" alt="Rumah Sakit Bhayangkara Palangkaraya"></div>
-	      <div class="panel-body">Telp: <a href="tel:+625363221520" title="Rumah Sakit Bhayangkara Palangkaraya">+625363221520</a></div>
+	      <div class="panel-body"><a href="tel:+625363221520" title="Rumah Sakit Bhayangkara Palangkaraya" style="color: #009688;"><i class="material-icons">local_hospital</i></a></div>
 	      <!-- <input class="mdl-slider mdl-js-slider" type="range" min="0" max="100" value="0" tabindex="0"> -->
 	    </div>
 	    <br>
 	    <div class="panel three panel-info">
 	      <div class="panel-heading">RSUD Dr Doris Sylvanus</div>
 	      <div class="panel-body"><img src="img/rs/doris.jpg" alt="RSUD Dr Doris Sylvanus"></div>
-	      <div class="panel-body">Telp: <a href="tel:+625363308671" title="RSUD Dr Doris Sylvanus">+625363308671</a></div>
+	      <div class="panel-body"><a href="tel:+625363308671" title="RSUD Dr Doris Sylvanus" style="color: #009688;"><i class="material-icons">local_hospital</i></a></div>
 	      <p>
 	      <!-- <input class="mdl-slider mdl-js-slider" type="range" min="0" max="100" value="0" tabindex="0"> -->
 	    </div>
