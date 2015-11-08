@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<muhammadiyah>
+	<name>Muhammadiyah</name>
+	<img>img/rs/muhammadiyah.JPG</img>
+	<tel>+625363244801</tel>
+</muhammadiyah>	
+<bhayangkara>
+	<name>Bhayangkara</name>
+	<img>img/bhayangkara.jpg</img>
+	<tel>+625363221520</tel>
+</bhayangkara>
+<doris>
+	<name>Doris</name>
+	<img>img/doris.jpg</img>
+	<tel>+625363308671</tel>
+</doris>
