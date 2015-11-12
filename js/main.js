@@ -9,6 +9,10 @@ if (typeof Hospital == 'undefined') {
 
 };
 
+function call(){
+	window.location.href='rate.html';
+}
+
 // if (muhammadiyah) {
 // 	var name = Muhammadiyah
 // 	var img = img/rs/muhammadiyah.JPG
