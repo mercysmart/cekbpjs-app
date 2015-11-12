@@ -3,10 +3,9 @@
 Merupakan sebuah layanan BPJS yang akan membantu anda dalam membooking kamar rumah sakit
 
 ## Tim CekBPJS
-* Mercy Sihombing - Founder 
-* Christie Kirana - Co-Founder
-* Andre Christoga - Frontend Developer
-* Dwi Susanto - Backend Developer
+* Mercy Sihombing - CMO 
+* Christie Kirana - CEO
+* Andre Christoga - CTO
 
 ## Demo
 You can check out the demo at **git.io/cekbpjs** or [http://mercysmart.github.io/cekbpjs-app](http://mercysmart.github.io/cekbpjs-app)
