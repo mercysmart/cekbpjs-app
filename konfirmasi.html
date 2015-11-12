@@ -21,9 +21,9 @@
 	</section>
 	<section id="content">
 		<h3>Konfirmasi</h3>
-		<h4>Rumah Sakit: RSUP Dr. Cipto Mangunkusumo</h4>
-		<h4>Tanggal Masuk Kamar: 25 Oktober 2015</h4>
-		<h4>Konfirmasi Kamar: Kelas 1 Ruang 2 Bed Pria</h4>
+		<h4>Rumah Sakit: <?php include 'data.php'; echo $name; ?></h4>
+		<h4>Tanggal Masuk Kamar: <?php include 'data.php'; echo $date; ?></h4>
+		<h4>Konfirmasi Kamar: <?php include 'data.php'; echo $kamar; ?></h4>
 		<!-- Raised button with ripple -->
 		<button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" style="background-color: #009688;
 		color: #fff;" onclick="window.location.href='berhasil.html'">
