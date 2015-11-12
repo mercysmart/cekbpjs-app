@@ -3,11 +3,11 @@ function rate() {
 	window.location.href='index.html'
 }
 
-if (typeof Hospital == 'undefined') {
-	throw new Error ('Mohon maaf, Rumah Sakit di daerah anda tidak terdeteksi')
-} else {
+// if (typeof Hospital == 'undefined') {
+// 	throw new Error ('Mohon maaf, Rumah Sakit di daerah anda tidak terdeteksi')
+// } else {
 
-};
+// };
 
 function call(){
 	window.location.href='rate.html';
