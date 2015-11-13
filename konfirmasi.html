@@ -14,6 +14,11 @@
 	<link rel="stylesheet" href="node_modules/material-design-lite/dist/material.teal-cyan.min.css">
 </head>
 <body>
+	<?php
+	    $name = "RSUP Dr. Cipto Mangunkusumo";
+	    $date = "25 Oktober 2015";
+	    $kamar = "Kelas 1 Ruang 2 Bed Pria";
+	 ?>
 	<section id="header">
 		<div class="page-header">
 			<img src="img/logo.png">
@@ -21,9 +26,9 @@
 	</section>
 	<section id="content">
 		<h3>Konfirmasi</h3>
-		<h4>Rumah Sakit: <?php include 'data.php'; echo $name; ?></h4>
-		<h4>Tanggal Masuk Kamar: <?php include 'data.php'; echo $date; ?></h4>
-		<h4>Konfirmasi Kamar: <?php include 'data.php'; echo $kamar; ?></h4>
+		<h4>Rumah Sakit: <?php  echo $name; ?></h4>
+		<h4>Tanggal Masuk Kamar: <?php  echo $date; ?></h4>
+		<h4>Konfirmasi Kamar: <?php  echo $kamar; ?></h4>
 		<!-- Raised button with ripple -->
 		<button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" style="background-color: #009688;
 		color: #fff;" onclick="window.location.href='berhasil.html'">
