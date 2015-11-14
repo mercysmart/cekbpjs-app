@@ -13,6 +13,10 @@ function call(){
 	window.location.href='rate.html';
 }
 
+function pesan(){
+	window.alert("Mohon masukan data yang benar.")
+	window.location.href='kamar.html'
+}
 // if (muhammadiyah) {
 // 	var name = Muhammadiyah
 // 	var img = img/rs/muhammadiyah.JPG
@@ -30,5 +34,3 @@ function call(){
 // 	var img = img/rs/doris.jpg
 // 	var tel = +625363308671
 // };
-
-
