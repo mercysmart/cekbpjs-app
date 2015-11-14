@@ -8,5 +8,5 @@
       MercySmart
     </author>
     <icon src="img/icon.png" />
-    <gap:splash src="splash.png" />
+    <gap:splash src="img/splash.png" />
   </widget>
