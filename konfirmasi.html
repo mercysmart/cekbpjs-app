@@ -16,7 +16,7 @@
 <body>
 	<?php
 	    $name = "RSUP Dr. Cipto Mangunkusumo";
-	    $date = "25 Oktober 2015";
+	    $date = date("Y/m/d");
 	    $kamar = "Kelas 1 Ruang 2 Bed Pria";
 	 ?>
 	<section id="header">
@@ -27,7 +27,7 @@
 	<section id="content">
 		<h3>Konfirmasi</h3>
 		<h4>Rumah Sakit: RSUP Dr. Cipto Mangunkusumo</h4>
-		<h4>Tanggal Masuk Kamar: 15 November 2015</h4>
+		<h4>Tanggal Masuk Kamar:	<?php echo $date; ?></h4>
 		<h4>Konfirmasi Kamar: Kelas 1 Ruang 1 Bed Pria</h4>
 		<!-- Raised button with ripple -->
 		<button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" style="background-color: #009688;
@@ -45,5 +45,10 @@
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 	<!-- Material Design -->
 	<script src="js/material.js"></script>
+	<!-- Costum JS -->
+	<script type="text/javascript">
+	var date = new Date(year, month, day);
+	document.write.getElementById('date').innerHTML = date
+	</script>
 </body>
 </html>
