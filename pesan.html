@@ -22,7 +22,7 @@
 		</div>
 	</section>
 	<section id="content-form">
-		<form name="form" action="kamar.html" method="post">
+		<form name="form" action="kamar.html">
 			<ul style="list-style: none;">
 					<li class="span1_of_1">
 						<!-- <p>Nomor BPJS:</p>
@@ -55,10 +55,34 @@
 						<br>
 						<p>Jenis Kelamin:</p>
 						<!-- <input type="text"> -->
-						<select name="gender" class="form-control" style="width:90px;margin:auto;">
+						<select name="gender" class="form-control" style="width:90px;margin:auto;" formmethod="post">
 							<option value="">--pilih--</option>
 							<option value="laki-laki">Laki-laki</option>
 							<option value="perempuan">Perempuan</option>
+						</select>
+						<div class="section_room">
+						</div>
+					</li>
+					<li class="span1_of_1">
+						<br>
+						<p>Kelas:</p>
+						<!-- <input type="text"> -->
+						<select name="gender" class="form-control" style="width:90px;margin:auto;" formmethod="post">
+							<option value="kelas-1">Kelas 1</option>
+							<option value="kelas-2">Kelas 2</option>
+							<option value="kelas-3">Kelas 3</option>
+						</select>
+						<div class="section_room">
+						</div>
+					</li>
+					<li class="span1_of_1">
+						<br>
+						<p>Ruang:</p>
+						<!-- <input type="text"> -->
+						<select name="gender" class="form-control" style="width:90px;margin:auto;" formmethod="post">
+							<option value="ruang-1">Ruang 1</option>
+							<option value="ruang-2">Ruang 2</option>
+							<option value="ruang-3">Ruang 3</option>
 						</select>
 						<div class="section_room">
 						</div>
