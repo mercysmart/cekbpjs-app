@@ -25,6 +25,9 @@ a {
 	display: inline-block;
 	vertical-align: middle;
 }
+.list {
+  list-style: none;
+}
 /*.rating > i:hover:before {
    content: "\2605";
    position: absolute;
