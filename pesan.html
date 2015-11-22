@@ -68,12 +68,42 @@
 						<!-- <input type="text"> -->
 						<select name="kab-kota" class="form-control" style="width:200px;margin:auto;" formmethod="post" id="kab-kota">
 							<option value="">--Pilih Kab/Kota--</option>
-							<option value="utara">Jakarta Utara</option>
-							<option value="selatan">Jakarta Selatan</option>
-							<option value="timur">Jakarta Timur</option>
-							<option value="barat">Jakarta Barat</option>
-							<option value="pusat">Jakarta Barat</option>
-							<option value="pramuka">Pulau Pramuka</option>
+							<option value="utara" id="utara" >Jakarta Utara</option>
+							<option value="selatan" id="selatan" >Jakarta Selatan</option>
+							<option value="timur" id="timur" >Jakarta Timur</option>
+							<option value="barat" id="barat" >Jakarta Barat</option>
+							<option value="pusat" id="pusat" >Jakarta Pusat</option>
+							<option value="pramuka" id="pramuka">Pulau Pramuka</option>
+						</select>
+						<div class="section_room">
+						</div>
+					</li>
+					<li class="span1_of_1">
+						<br>
+						<p>Faskes 1 :</p>
+						<!-- <input type="text"> -->
+						<select name="utara" class="form-control" style="width:200px;margin:auto;" formmethod="post" id="utaradr">
+							<option value="">--Pilih Faskes--</option>
+						</select>
+						<br>
+						<select name="selatan" class="form-control" style="width:200px;margin:auto;" formmethod="post" id="selatandr">
+							<option value="">--Pilih Faskes--</option>
+						</select>
+						<br>
+						<select name="timur" class="form-control" style="width:200px;margin:auto;" formmethod="post" id="timurdr">
+							<option value="">--Pilih Faskes--</option>
+						</select>
+						<br>
+						<select name="barat" class="form-control" style="width:200px;margin:auto;" formmethod="post" id="baratdr">
+							<option value="">--Pilih Faskes--</option>
+						</select>
+						<br>
+						<select name="pusat" class="form-control" style="width:200px;margin:auto;" formmethod="post" id="pusatdr">
+							<option value="">--Pilih Faskes--</option>
+						</select>
+						<br>
+						<select name="pramuka" class="form-control" style="width:200px;margin:auto;" formmethod="post" id="pramukadr">
+							<option value="">--Pilih Faskes--</option>
 						</select>
 						<div class="section_room">
 						</div>
@@ -149,7 +179,12 @@
 	<script src="node_modules/jquery-chained/jquery-chained.remote.js"></script>
 	<!-- jQuery Chained -->
 	<script>
-		$("#gender").chained("#kelas").chained("#ruang"); /* or $("#series").chainedTo("#mark"); */
+		$("#utara").chainedTo("#utaradr");
+		$("#selatan").chainedTo("#selatandr");
+		$("#timur").chainedTo("#timurdr");
+		$("#barat").chainedTo("#baratdr");
+		$("#pusat").chainedTo("#pusatdr");
+		$("#pramuka").chainedTo("#pramukadr");
 	</script>
 	<!-- Bootstrap JS -->
 	<script src="js/bootstrap.min.js"></script>
